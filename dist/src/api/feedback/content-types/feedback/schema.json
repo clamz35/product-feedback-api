@@ -18,10 +18,13 @@
                 "planned",
                 "in-progress",
                 "live"
-            ]
+            ],
+            "required": true,
+            "default": "in-progress"
         },
         "name": {
-            "type": "string"
+            "type": "string",
+            "required": true
         },
         "detail": {
             "type": "text"
