@@ -38,6 +38,12 @@
             "min": 0,
             "default": 0,
             "type": "integer"
+        },
+        "comments": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::comment.comment",
+            "mappedBy": "feedback"
         }
     }
 }
