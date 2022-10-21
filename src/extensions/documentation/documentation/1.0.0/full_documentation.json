@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-16T10:12:25.487Z"
+    "x-generation-date": "2022-10-21T17:38:32.116Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -671,6 +671,43 @@
                                 }
                               }
                             },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1316,6 +1353,43 @@
                                           }
                                         }
                                       }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
                                     }
                                   }
                                 }
@@ -2004,6 +2078,43 @@
                                 }
                               }
                             },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2649,6 +2760,43 @@
                                           }
                                         }
                                       }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
                                     }
                                   }
                                 }
@@ -4113,6 +4261,31 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "comments": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ],
+                  "example": "string or id"
+                }
+              },
+              "comment": {
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "example": "string or id"
               }
             }
           }
@@ -4604,6 +4777,43 @@
                                             }
                                           }
                                         },
+                                        "comments": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "array",
+                                              "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "comment": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -4710,6 +4920,43 @@
                 }
               },
               "account": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "attributes": {
+                        "type": "object",
+                        "properties": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "comments": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "number"
+                        },
+                        "attributes": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "comment": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -5262,6 +5509,43 @@
                                             }
                                           }
                                         },
+                                        "comments": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "array",
+                                              "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "comment": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -5368,6 +5652,43 @@
                 }
               },
               "account": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "attributes": {
+                        "type": "object",
+                        "properties": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "comments": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "number"
+                        },
+                        "attributes": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "comment": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -5953,6 +6274,43 @@
                                             }
                                           }
                                         },
+                                        "comments": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "array",
+                                              "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "comment": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6059,6 +6417,43 @@
                 }
               },
               "account": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "attributes": {
+                        "type": "object",
+                        "properties": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "comments": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "number"
+                        },
+                        "attributes": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "comment": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -6611,6 +7006,43 @@
                                             }
                                           }
                                         },
+                                        "comments": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "array",
+                                              "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "comment": {
+                                          "type": "object",
+                                          "properties": {
+                                            "data": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6717,6 +7149,43 @@
                 }
               },
               "account": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "attributes": {
+                        "type": "object",
+                        "properties": {}
+                      }
+                    }
+                  }
+                }
+              },
+              "comments": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "number"
+                        },
+                        "attributes": {
+                          "type": "object",
+                          "properties": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "comment": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -7424,6 +7893,43 @@
                                 }
                               }
                             },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -8094,6 +8600,43 @@
                                           }
                                         }
                                       }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
                                     }
                                   }
                                 }
@@ -8807,6 +9350,43 @@
                                 }
                               }
                             },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9477,6 +10057,43 @@
                                           }
                                         }
                                       }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comments": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "comment": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "number"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
                                     }
                                   }
                                 }

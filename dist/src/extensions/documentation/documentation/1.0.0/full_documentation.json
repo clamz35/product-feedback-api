@@ -14,7 +14,7 @@
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "x-generation-date": "2022-10-15T12:36:26.377Z"
+        "x-generation-date": "2022-10-21T10:40:54.449Z"
     },
     "x-strapi-config": {
         "path": "/documentation",
@@ -671,6 +671,26 @@
                                                                 }
                                                             }
                                                         },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
                                                         "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -1315,6 +1335,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -2004,6 +2044,26 @@
                                                                 }
                                                             }
                                                         },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
                                                         "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -2648,6 +2708,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -4113,6 +4193,20 @@
                                     }
                                 ],
                                 "example": "string or id"
+                            },
+                            "comments": {
+                                "type": "array",
+                                "items": {
+                                    "oneOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "string"
+                                        }
+                                    ],
+                                    "example": "string or id"
+                                }
                             }
                         }
                     }
@@ -4604,6 +4698,26 @@
                                                                                         }
                                                                                     }
                                                                                 },
+                                                                                "comments": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "data": {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                    "id": {
+                                                                                                        "type": "number"
+                                                                                                    },
+                                                                                                    "attributes": {
+                                                                                                        "type": "object",
+                                                                                                        "properties": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
                                                                                 "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -4721,6 +4835,26 @@
                                             "attributes": {
                                                 "type": "object",
                                                 "properties": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "comments": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "number"
+                                                },
+                                                "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                }
                                             }
                                         }
                                     }
@@ -5262,6 +5396,26 @@
                                                                                         }
                                                                                     }
                                                                                 },
+                                                                                "comments": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "data": {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                    "id": {
+                                                                                                        "type": "number"
+                                                                                                    },
+                                                                                                    "attributes": {
+                                                                                                        "type": "object",
+                                                                                                        "properties": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
                                                                                 "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -5379,6 +5533,26 @@
                                             "attributes": {
                                                 "type": "object",
                                                 "properties": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "comments": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "number"
+                                                },
+                                                "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                }
                                             }
                                         }
                                     }
@@ -5953,6 +6127,26 @@
                                                                                         }
                                                                                     }
                                                                                 },
+                                                                                "comments": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "data": {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                    "id": {
+                                                                                                        "type": "number"
+                                                                                                    },
+                                                                                                    "attributes": {
+                                                                                                        "type": "object",
+                                                                                                        "properties": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
                                                                                 "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -6070,6 +6264,26 @@
                                             "attributes": {
                                                 "type": "object",
                                                 "properties": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "comments": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "number"
+                                                },
+                                                "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                }
                                             }
                                         }
                                     }
@@ -6611,6 +6825,26 @@
                                                                                         }
                                                                                     }
                                                                                 },
+                                                                                "comments": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "data": {
+                                                                                            "type": "array",
+                                                                                            "items": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                    "id": {
+                                                                                                        "type": "number"
+                                                                                                    },
+                                                                                                    "attributes": {
+                                                                                                        "type": "object",
+                                                                                                        "properties": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
                                                                                 "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -6728,6 +6962,26 @@
                                             "attributes": {
                                                 "type": "object",
                                                 "properties": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "comments": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "number"
+                                                },
+                                                "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                }
                                             }
                                         }
                                     }
@@ -7424,6 +7678,26 @@
                                                                 }
                                                             }
                                                         },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
                                                         "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -8093,6 +8367,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -8807,6 +9101,26 @@
                                                                 }
                                                             }
                                                         },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
                                                         "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -9476,6 +9790,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "comments": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "number"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }

@@ -26,6 +26,18 @@
       "relation": "manyToOne",
       "target": "api::account.account",
       "inversedBy": "comments"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "comment"
+    },
+    "comment": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::comment.comment",
+      "inversedBy": "comments"
     }
   }
 }
