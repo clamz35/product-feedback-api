@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-21T17:38:32.116Z"
+    "x-generation-date": "2022-10-31T08:42:52.308Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -525,6 +525,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "nbVotes": {
+                                          "type": "integer"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -1212,6 +1215,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "nbVotes": {
+                                          "type": "integer"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -1933,6 +1939,9 @@
                                             }
                                           }
                                         },
+                                        "nbVotes": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2619,6 +2628,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "nbVotes": {
+                                          "type": "integer"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -4867,6 +4879,9 @@
                               }
                             }
                           },
+                          "nbVotes": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -5598,6 +5613,9 @@
                                 }
                               }
                             }
+                          },
+                          "nbVotes": {
+                            "type": "integer"
                           },
                           "createdAt": {
                             "type": "string",
@@ -6364,6 +6382,9 @@
                               }
                             }
                           },
+                          "nbVotes": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -7096,6 +7117,9 @@
                               }
                             }
                           },
+                          "nbVotes": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -7316,6 +7340,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "nbVotes": {
+                "type": "integer"
               }
             }
           }
@@ -7748,6 +7775,9 @@
                                             }
                                           }
                                         },
+                                        "nbVotes": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -7982,6 +8012,9 @@
                     }
                   }
                 }
+              },
+              "nbVotes": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -8460,6 +8493,9 @@
                                             }
                                           }
                                         },
+                                        "nbVotes": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -8694,6 +8730,9 @@
                     }
                   }
                 }
+              },
+              "nbVotes": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9205,6 +9244,9 @@
                                             }
                                           }
                                         },
+                                        "nbVotes": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -9439,6 +9481,9 @@
                     }
                   }
                 }
+              },
+              "nbVotes": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9917,6 +9962,9 @@
                                             }
                                           }
                                         },
+                                        "nbVotes": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -10151,6 +10199,9 @@
                     }
                   }
                 }
+              },
+              "nbVotes": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",

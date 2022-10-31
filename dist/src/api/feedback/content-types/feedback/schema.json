@@ -44,6 +44,10 @@
             "relation": "oneToMany",
             "target": "api::comment.comment",
             "mappedBy": "feedback"
+        },
+        "nbVotes": {
+            "type": "integer",
+            "default": 0
         }
     }
 }
